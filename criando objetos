@@ -1,0 +1,10 @@
+function banco(conta, saldo, tipo, agencia) {
+  this.conta = conta
+  this.saldo = saldo
+  this.tipo = tipo
+  this.agencia = agencia
+}
+
+var minhaconta = new banco("2964", 5846, "poupança", "1524");
+
+console.log(minhaconta)
